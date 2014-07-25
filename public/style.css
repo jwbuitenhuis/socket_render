@@ -1,0 +1,65 @@
+/* Fix user-agent */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, input {
+  font-family:
+    "HelveticaNeue-Light",
+    "Helvetica Neue Light",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    "Lucida Grande",
+    sans-serif;
+}
+
+h1, p { padding: 4px;}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  word-wrap: break-word;
+}
+
+input[type="button"] {
+    font-size: 1em;
+    background: azure;
+}
+
+.axis path, .axis line
+{
+    fill: none;
+    stroke: #777;
+    shape-rendering: crispEdges;
+}
+
+.axis text
+{
+    font-family: 'Arial';
+    font-size: 13px;
+}
+.tick
+{
+    stroke-dasharray: 1, 2;
+}
+.bar
+{
+    fill: FireBrick;
+}
+
+
+.toolbar {
+    padding: 4px;
+    background: #ddd;
+}
