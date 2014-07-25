@@ -12,3 +12,6 @@ $ node index.js
 ```
 
 Point your browser to `http://localhost:3000`.
+
+
+![alt tag](https://raw.github.com/jwbuitenhuis/socket_render/master/public/screenshot.png)
