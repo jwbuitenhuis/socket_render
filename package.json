@@ -1,10 +1,10 @@
 {
-  "name": "socket.io-chat",
+  "name": "socket_render",
   "version": "0.0.0",
-  "description": "A simple chat client using socket.io",
+  "description": "Test app for sockets and rendering",
   "main": "app.js",
-  "author": "Grant Timmerman",
-  "private": true,
+  "author": "JW Buitenhuis",
+  "private": false,
   "license": "BSD",
   "dependencies": {
     "express": "3.4.8",
