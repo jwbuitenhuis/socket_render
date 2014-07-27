@@ -20,7 +20,7 @@ var prettyjson = require('prettyjson'),
     connectedSocket;
 
 var destination = '/topic/TRAIN_MVT_EG_TOC',
-    client = new StompClient('datafeeds.networkrail.co.uk', 61618, 'jwbuitenhuis@gmail.com', 'dXdx345!');
+    client = new StompClient('datafeeds.networkrail.co.uk', 61618, 'jwbuitenhuis@gmail.com', '****');
 
 client.connect(function () {
     console.log('Trying to connect...');
